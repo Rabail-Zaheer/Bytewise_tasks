@@ -1,0 +1,216 @@
+/* h1 {
+  color: green;
+} */
+
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+
+  /* SAME AS ABOVE*/
+  /* 
+  font: normal 16px Arial, Helvetica, sans-serif; */
+
+  line-height: 1.6em;
+  margin: 0;
+}
+.clr {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+a:visited {
+}
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: red;
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: auto; /* defines the element perfectly. */
+}
+
+.box-1 {
+  background-color: #333333;
+  color: #ffffff;
+  border: 5px red solid;
+
+  /* 
+ THE IS SAME AS ABOVE
+
+border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  border-left: 5px red solid;
+  border-right: 5px red solid;
+ */
+
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+
+  padding: 20px;
+  /* 
+  Same as above
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px; */
+
+  margin-top: 20px;
+  margin: 20px 0px;
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 0.5em;
+}
+
+.box-2 {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+.categories ul {
+  padding: 0;
+  list-style: square;
+  list-style: none;
+}
+.categories li {
+  padding-bottom: 8px;
+  border-bottom: dotted 1px #333;
+}
+/*  list-style-image: url("download.png");
+} */
+
+.myform {
+  padding: 20px;
+}
+.myform .form-group {
+  padding-bottom: 15px;
+}
+.myform label {
+  display: block;
+}
+
+.myform input[type="text"],
+.myform textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+/*  THESE STYLES ARE NOT GLOBAL, WHAT IF WE WANT TO USE THESE EXACT STYLES ON ANOTHER BUTTON ON THE PAGE?
+YES, THEN WE HAVE TO WRITE THESE AGAIN, THE BEST PRACTICE IS TO MAKE THEM GLOBAL.. SO, IT'S BETTER TO TARGET A COMMON CLASS NAME SUCH AS "BUTTON" AND GIVE THAT CLASS THE STYLES. THAT'S EXACTLY WHAT WE ARE GONNA DO HERE.
+
+.myform input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+} */
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 30px;
+  position: relative;
+  background-image: url("universe.jpeg");
+  background-repeat: no-repeat;
+  /* background-position: 100px 200px; */
+  background-position: center center;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 200px;
+}
+.my-list li:first-child {
+  background: red;
+  color: white;
+}
+.my-list li:last-child {
+  background: rebeccapurple;
+  color: white;
+}
+.my-list li:nth-child(6) {
+  background: palevioletred;
+  color: white;
+}
+
+.my-list li:nth-child(odd) {
+  background: palevioletred;
+  color: white;
+}
+
+.my-list li:nth-child(even) {
+  background: rosybrown;
+  color: white;
+}

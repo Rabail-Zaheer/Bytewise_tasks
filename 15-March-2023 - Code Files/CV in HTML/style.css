@@ -1,0 +1,72 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  background-color: rgb(37, 150, 190);
+  width: 100%;
+  height: 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.sections {
+  width: 100%;
+}
+.left {
+  background-color: #e0e0e0;
+  display: inline;
+  width: 35%;
+  margin-left: 15px;
+  margin-right: 10px;
+  float: left;
+}
+.leftpanel {
+  margin-left: 20px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.right {
+  display: inline;
+  width: 40%;
+  margin-left: 10px;
+  margin-right: 15px;
+  float: left;
+}
+.rightpanel {
+  margin-right: 20px;
+  float: left;
+  display: block;
+}
+
+.personal {
+  display: block;
+  margin: 5px;
+}
+div h1 {
+  color: rgb(37, 150, 190);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(37, 150, 190);
+}
+.list {
+  list-style-type: none;
+}
+.trainer {
+  list-style-type: disc;
+}
+.writer {
+  list-style-type: disc;
+}
+.mini {
+  list-style-type: disc;
+}
+
+.personal {
+}
+li {
+  font-weight: bold;
+}

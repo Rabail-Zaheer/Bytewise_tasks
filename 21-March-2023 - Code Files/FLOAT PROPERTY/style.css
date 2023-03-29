@@ -1,0 +1,17 @@
+img {
+  float: left;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  font-size: 40px;
+  text-align: center;
+  background-color: coral;
+
+  float: left;
+}
+p {
+  clear: left;
+}
